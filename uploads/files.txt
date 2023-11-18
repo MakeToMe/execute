@@ -1,0 +1,1 @@
+Pasta padrão para receber os arquivos por meio do multer
