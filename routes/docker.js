@@ -13,7 +13,7 @@ router.get('/listcontainers', dockerController.listContainers);
 router.get('/listexited', dockerController.listExitedContainers);
 
 // Rota para reiniciar e parar containers
-router.post('/restartcontainer', dockerController.restartAndStopContainer);
+router.post('/restartcontainer', dockerController.restartContainer);
 
 // Rota para excluir containers
 router.post('/deletecontainer', dockerController.deleteContainer);
